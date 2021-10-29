@@ -1,9 +1,1 @@
 
-
-#### slice
-#### map 
-
-#### struct
-
-#### goroutine
-
