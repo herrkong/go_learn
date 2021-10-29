@@ -1,0 +1,1 @@
+curl --user iouyegoW409Iuyt:aT3ddxbtLrboiTu --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"importpubkey","params":["030ffe8778b8412953d25a83635bc52a3d356c4968c0a5ed6add8d5fd00f0f4adf"]}' https://testmrxrpc.digifinex.org/wallet/ | jq

@@ -1,0 +1,1 @@
+curl --user main:main --data-binary '{"jsonrpc":"2.0","id":"curltest","method":"gettransaction","params":["99520ec5ff5d2fb974cb05c847ab8a02740812cfa9bf8cc2a8f6c8768e9c172b",true]}' http://main:main@dns.seed2.latinum.staking.zeeve.net:38555/wallet/testwallet  | jq

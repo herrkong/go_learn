@@ -1,0 +1,23 @@
+{
+    "requestProcessingTime": 2,
+    "block": "2737114725063398813",
+    "height": 8838205,
+    "generator": "14404444894218816128",
+    "generatorRS": "APL-N4N2-C2TB-VUTG-EYQTH",
+    "generatorPublicKey": "1bb50528f7328a7a9fb4718a72fa91e1f1ca2d62180a328a01b733b937440d49",
+    "timestamp": 115844833,
+    "timeout": 9,
+    "numberOfTransactions": 0,
+    "totalFeeATM": "0",
+    "payloadLength": 0,
+    "version": 6,
+    "baseTarget": "2371829985",
+    "cumulativeDifficulty": "246247128938749477",
+    "previousBlock": "14114737097825694352",
+    "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "generationSignature": "ed94071254ebee089b63733c7d6ddd9ab301db5cd780f02ba665ae8f4f014436",
+    "previousBlockHash": "90b2ed7d9b9ee1c3c27b768a0d537fea3ee6783e266563ae461b0241bd967f43",
+    "blockSignature": "4689f17a4096cf347d6e03698505d54ba6761bcc71b5fd89ed3d0035395fe10171a09afc26470f53dd8bbc81670741e20483d468d9a20329e6008e67bc897cde",
+    "totalAmountATM": "0",
+    "transactions": []
+}

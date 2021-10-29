@@ -1,0 +1,27 @@
+{
+    "result": [
+        {
+            "id": "opid-6aadd9b8-debc-4044-b075-4389b07f2149",
+            "status": "failed",
+            "creation_time": 1626531045,
+            "error": {
+                "code": -25,
+                "message": ""
+            },
+            "method": "z_sendmany",
+            "params": {
+                "fromaddress": "zs1uffcfr8t9ynpe9xjvs4gxq2hunkmrqf7zzhjlh7ryr3aqnjncfyvveus40z9rfrd82qczjnfpa9",
+                "amounts": [
+                    {
+                        "address": "zs154wjns03jhe89nuzamxgkz2tcxlalwdzkdm5ut2wfy3w8kmlm6dzkdvrtdsad57mkr44vug7888",
+                        "amount": 168.6469149
+                    }
+                ],
+                "minconf": 1,
+                "fee": 0.0001
+            }
+        }
+    ],
+    "error": null,
+    "id": "curl"
+}

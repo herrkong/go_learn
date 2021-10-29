@@ -1,0 +1,2 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":1}' https://rpc-0.luniverse.io:18545?lChainId=8555924898017198221
+

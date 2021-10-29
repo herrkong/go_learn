@@ -1,0 +1,10 @@
+# curl -X POST https://apollowallet.org/apl?requestType=getAccountPublicKey&account=APL-AC72-2AAL-EPFR-CB38F
+
+
+
+ curl -X POST 'https://testaplrpc.digifinex.org/apl?requestType=getAccountPublicKey&account=APL-AC72-2AAL-EPFR-CB38F'
+
+
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getAccountPublicKey&account=APL-SN5U-BWGY-QWEC-HDF8Q'
+
+

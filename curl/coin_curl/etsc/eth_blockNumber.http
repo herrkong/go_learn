@@ -1,0 +1,1 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}' https://testetscrpc.digifinex.org/

@@ -1,0 +1,46 @@
+{
+    "code": 1,
+    "msg": "成功",
+    "data": {
+        "type": "tx",
+        "network": "TRX",
+        "block_no": 32434570,
+        "height": 32434570,
+        "blockHash": "0000000001eee98ac7bbb037d254f1a0192bdb5fe3b7fe7c79b83a23a98e8daf",
+        "index": 26,
+        "time": 1627780686,
+        "txid": "a3f1a19e6fa10b932936ca0149962f0c3152335ec8e17e8cd477bdf0ab918435",
+        "fee": "4.26962",
+        "tType": "Trigger Smart",
+        "confirmations": 31836,
+        "from": "TZJoFL4hmTDwqaRpj1khbk3yQVMn76oFQc",
+        "to": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+        "value": "0",
+        "gasFee": 3924620,
+        "gasUsed": 28034,
+        "gasLimit": 8000000,
+        "expiration": 1627780734,
+        "toIsContract": 1,
+        "netFee": 345000,
+        "tokenTransfer": [
+            {
+                "index": 26,
+                "token": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+                "tokenAddr": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+                "tokenSymbol": "SUN",
+                "tokenDecimals": "18",
+                "tokenInfo": {
+                    "h": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+                    "f": "SUN TOKEN",
+                    "s": "SUN",
+                    "d": "18",
+                    "c": "TRC20"
+                },
+                "from": "TZJoFL4hmTDwqaRpj1khbk3yQVMn76oFQc",
+                "to": "TRZHxj5iC4pjC3k8BubT393jFPhdaeszX6",
+                "value": "3297700000000000000000"
+            }
+        ],
+        "input": "a9059cbb000000000000000000000000aafc2b6fd23148f6f048aabd9981b08772199d490000000000000000000000000000000000000000000000b2c4c7e6095daa0000"
+    }
+}

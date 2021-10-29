@@ -1,0 +1,41 @@
+{
+    "code": 1,
+    "msg": "成功",
+    "data": {
+        "type": "tx",
+        "network": "BTC",
+        "block_no": 693804,
+        "height": 693804,
+        "blockHash": "000000000000000000100a440b02012a1d66bd7960077c9c1eb42b036c410c8b",
+        "index": 428,
+        "time": 1627879374,
+        "txid": "2d8c14f7c2614b580e6add62689f738aab4c97ea6f6fc57d768ae54e77091877",
+        "fee": "0.00000365",
+        "confirmations": 7,
+        "inputs": [
+            {
+                "input_no": 0,
+                "address": "bc1q8w53dgfn88yr6e729fd3p8slmlkqt5adxhcqmz",
+                "value": "6.03475513",
+                "received_from": {
+                    "output_no": 1,
+                    "txid": "b93d7ea05d637a86515adb54c58ef9339e2d91bafbc317bf3247722110a6ec56"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "output_no": 0,
+                "address": "37PWuFLyLmQ1N3EyBMtPe8RU9dxgbB7hcK",
+                "value": "0.00025"
+            },
+            {
+                "output_no": 1,
+                "address": "bc1q8w53dgfn88yr6e729fd3p8slmlkqt5adxhcqmz",
+                "value": "6.03450148"
+            }
+        ],
+        "inputCnt": 1,
+        "outputCnt": 2
+    }
+}

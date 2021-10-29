@@ -1,0 +1,1 @@
+curl --user iouyegoW409Iuyt:aT3ddxbtLrboiTu --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"estimatesmartfee","params":[1]}' https://testmrxrpc.digifinex.org/ | jq

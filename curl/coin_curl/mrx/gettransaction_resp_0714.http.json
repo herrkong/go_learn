@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Server: openresty/1.19.3.1
+Date: Wed, 14 Jul 2021 09:32:27 GMT
+Content-Type: application/json
+Content-Length: 1567
+Connection: close
+
+{
+  "result": {
+    "amount": 807567.15961516,
+    "confirmations": 97,
+    "blockhash": "870e133834ca675c092c91afe1815b19599ff9b984be24f1d02a921026157fae",
+    "blockindex": 3,
+    "blocktime": 1626245696,
+    "txid": "bb17d37b3c27b669e06ff943497c3950d39ea2442fb3e201e1738f83f3cc5677",
+    "walletconflicts": [],
+    "time": 1626245681,
+    "timereceived": 1626245681,
+    "bip125-replaceable": "no",
+    "details": [
+      {
+        "involvesWatchonly": true,
+        "address": "MADa97yGuHmrs8MiETgJjGGnmGabYL34C9",
+        "category": "receive",
+        "amount": 807567.15961516,
+        "label": "",
+        "vout": 1
+      }
+    ],
+    "hex": "0200000003fdf4c9c6f9452983e467dcf3e763878a0da6497aabc2569abeb9ddc0eefd2f8c000000006a47304402207a32067da44758530fa1a5bb076df9ed6dc445f8a2136461ec70b8fd0586ac7402207ec8364de517a0e1ea24f549a9e777a462c1e12492581d4abcb36a864de24c3d012103a467a5f014284dd8812470f493f6807a8b265d9640741eb1eb0e222a7fafe515feffffffa30c668b6f70e500cc9e65c28c88e071634346252b9a62f698a96fcb01834f2e000000006a473044022007321fa20b2fcb88fabb09f0f85a9050d73d2c02c0d7d8aec291e5c96892ba8002207fba28f4465272302133d827e98e07be2741c67815a4afb745a33ac482e7defe0121036db5fa4c6314f32ac704a5f2f30e8754f3cb85e8453052e9188c3a09b3b565d2feffffff73ba6cc7321ff8b6eb8d4525ab029bd2dcea846480fd32783bf4c44dcec22dac000000006a4730440220309ee900a37955d41e4ed2f020dac02d19c68345b8b84a343d66d1aecab8e3370220299caecca96b7252111ded7d68dba6d2a31f08af0c1b6f13bcd54427c1377a3b012102b7ca83f214cc52301e8f6a60e0c5d7bad5818b2e9ff06211c72050a918744057feffffff0220df71c4260000001976a91456c556720cc1bc16c6b338b41c08c306059c8b8688acac3c5ea3724900001976a914196bb2583cf486e4e50d34fef9fa932ca340d85a88aca1550400"
+  },
+  "error": null,
+  "id": "curltest"
+}

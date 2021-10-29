@@ -1,0 +1,11 @@
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary 
+'
+{
+    "jsonrpc": "1.0",
+    "id": "curl",
+    "method": "zs_listtransactions",
+    "params": [
+    ]
+}
+' 
+https://testarrrrpc.digifinex.org/ | jq`

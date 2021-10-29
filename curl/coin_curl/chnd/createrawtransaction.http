@@ -1,0 +1,20 @@
+curl --user GHNqSfLS34i2uzB7:jzafoAvSuF65Npdn  --data-binary 
+'
+{
+    "jsonrpc": "1.0",
+    "id": "curl",
+    "method": "createrawtransaction",
+    "params": [
+        [
+            {
+                "txid": "8bd16f3b75dae5f5ee6f2b340d16f7c93fc88de314ba02c5fe820d9935183be1",
+                "vout": 0
+            }
+        ],
+        {
+            "cDdwTr9apGmcJJs3iexve1meyFMTWyzL78": 0.01,
+            "cFbch1r7F5gGewTFLnwF4QQML8952mA47U": 0.06
+        }
+    ]
+}
+' https://testchndrpc.digifinex.org/ | jq

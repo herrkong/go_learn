@@ -1,0 +1,5 @@
+// Request
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getRecentBlockhash"}' https://api.testnet.velas.com/ 
+
+
+# curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getRecentBlockhash"}' https://rpc.mainnet.velas.com/ 

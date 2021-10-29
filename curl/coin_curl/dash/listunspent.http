@@ -1,0 +1,1 @@
+curl --user HFZ6gF9gS9nsoju:5UGScnTerRhjJdY --data-binary '{"jsonrpc": "2.0", "id":"curl", "method": "listunspent", "params": [1, 9999999, []] }' https://testdashrpc.digifinex.org/wallet/ | jq

@@ -1,0 +1,5 @@
+// Request
+curl -X POST  -d '{"jsonrpc":"2.0", "id":1, "method":"getSignatureStatuses", "params":[[""]]}'  https://api.testnet.velas.com/ -H "Content-Type: application/json"
+
+// Result
+# {"jsonrpc":"2.0","result":{"context":{"slot":1},"value":0},"id":1}

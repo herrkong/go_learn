@@ -1,0 +1,25 @@
+#curl -X POST https://apollowallet.org/apl?requestType=getBalance&account=APL-AC72-2AAL-EPFR-CB38F
+
+
+
+# curl -X POST https://apollowallet.org/apl?requestType=getBalance&account=12004389895610312864
+# APL-9EFW-XX62-2ZGY-3H7QK
+
+
+
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getBalance&account=APL-LM55-FZC5-36DD-FFZEW'
+
+
+
+# 5987914934914920969
+# APL-SEJB-X3SF-VRUG-7SC88
+#curl -X POST https://testaplrpc.digifinex.org/apl?requestType=getBalance&account=5987914934914920969
+
+
+#curl -X POST https://testaplrpc.digifinex.org:7876/apl?requestType=getBalance&account=APL-AC72-2AAL-EPFR-CB38F
+
+#curl -X POST https://aplrpc.digifinex.org:7876/apl?requestType=getBalance&account=APL-AC72-2AAL-EPFR-CB38F
+
+
+
+curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getBalance&account=APL-R86T-Q6VH-R4VZ-45SGW'

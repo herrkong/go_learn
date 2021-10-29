@@ -1,0 +1,2 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x1fb89bddaa492a0dc172ab06d2070c4661465e901a6a34164f5742056ba9137b"],"id":1}' https://testetscrpc.digifinex.org/
+

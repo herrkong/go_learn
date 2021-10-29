@@ -1,0 +1,3 @@
+
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0", "id":1, "method":"getConfirmedTransaction", "params":["5939h4UhKQN8fvegcdtf626nnYtnxH6bWxRyjhmuJb2WaWcA5tDnVXtGNEbwbPKcgNLtAdELsh2f7T13NkMmrGN4"]}' https://rpc.mainnet.velas.com/
+

@@ -1,0 +1,9 @@
+
+#curl -X POST https://apollowallet.org/apl?requestType=getTransaction&fullHash=1d36c6bd9d6465a85d14fc133748d9c4b8c1ccd4eadbed9edadebc176f45185e
+
+
+curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getTransaction&fullHash=4124428077fa87203b5ebf81b185a72affb47af210bc2a330e90968dc06776fe'
+
+
+#transaction is the transaction ID (optional)
+# fullHash is the full hash of the transaction (optional if transaction ID is provided)

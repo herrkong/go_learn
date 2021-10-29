@@ -1,0 +1,3 @@
+
+curl -X POST  -d '{"jsonrpc":"2.0", "id":1, "method":"getBalance", "params":["3Ja5ktniUJ3cGrx8vHi7JBbrBkwEZTDVQg8oerYZvePu"]}'  https://rpc.mainnet.velas.com/ -H "Content-Type: application/json"
+

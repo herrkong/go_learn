@@ -1,0 +1,14 @@
+
+
+
+#curl -X POST https://apollowallet.org/apl?requestType=createTransaction
+
+#curl -X POST https://testaplrpc.digifinex.org/apl?requestType=createTransaction
+
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestTag=CREATE_TRANSACTION'
+
+#http://localhost:7876/test?requestTag=CREATE_TRANSACTION.
+
+# return createTransaction(req, senderAccount, recipientId, amountATM, attachment, true, true).getJson();
+
+curl -X POST  'https://wallet.test.apollowallet.org/apl?requestTag=CREATE_TRANSACTION&senderAccount=APL-R86T-Q6VH-R4VZ-45SGW&rrecipient=APL-SN5U-BWGY-QWEC-HDF8Q&amountATM=10000000&attachment=OrdinaryPayment&broadcast=true&validate=true'

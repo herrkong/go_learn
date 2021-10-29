@@ -1,0 +1,8 @@
+scp  wallet_server_go.202110121216  dev01@47.115.57.159:/data/vhosts/shuzibi/wallet_server_go/bin
+
+AnvByxSnXL2kNg
+
+
+scp  chain_linux_202110131533  dev01@47.115.57.159:/data/vhosts/shuzibi/push/chain/bin
+
+scp  center_linux_202110131533  dev01@47.115.57.159:/data/vhosts/shuzibi/push/center/bin

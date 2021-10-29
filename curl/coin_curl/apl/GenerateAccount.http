@@ -1,0 +1,22 @@
+
+# #pro
+# curl -X POST https://apollowallet.org/apl?requestType=generateAccount
+
+
+
+# #local
+# curl -X POST 'https://testaplrpc.digifinex.org/apl?requestType=generateAccount'
+
+
+
+#testnet
+#curl -X POST https://wallet.test.apollowallet.org/apl?requestType=generateAccount
+
+#### set passphrase
+curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=generateAccount'
+
+# this operation get vault account 
+
+curl -X POST "https://wallet.test.apollowallet.org/apl?requestType=generateAccount" -d "passphrase=sfjdhaslkf1dsf11343"
+
+curl -X POST "https://wallet.test.apollowallet.org/apl?requestType=generateAccount" -d "passphrase=sfjdhaslkf1dsf11343"

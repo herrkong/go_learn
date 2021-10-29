@@ -1,0 +1,22 @@
+{
+    "requestProcessingTime": 29,
+    "account": "4879603506092561243",
+    "accountRS": "APL-DNUV-K6EQ-BSRT-6PYF9",
+    "publicKey": "3279c54f836b1e7de517eae0e2f01d5d135f637fc5fe7d8b78b0ef3896fc7e5e",
+    "passphrase": "pickiest largesse pretties rebuffed lewder puddles hearth hidden roils teariest textiles gains scenic",
+    "apl": {
+        "currency": "apl",
+        "wallets": {
+            "account": "4879603506092561243",
+            "accountRS": "APL-DNUV-K6EQ-BSRT-6PYF9",
+            "publicKey": "3279c54f836b1e7de517eae0e2f01d5d135f637fc5fe7d8b78b0ef3896fc7e5e",
+            "passphrase": "pickiest largesse pretties rebuffed lewder puddles hearth hidden roils teariest textiles gains scenic"
+        }
+    },
+    "eth": [
+        {
+            "address": "0x31fb6b66f1c383fd68dc6e0793c43201fac4658d",
+            "publicKey": "686a749ccbfbaca8741a02915e40ec181689c26b5de62e1bc04bebb073ec4f721eb899ca0fb977b5b4f50b3edf3af1aacffe93088d5170e07b0d4732df7a0fe6"
+        }
+    ]
+}

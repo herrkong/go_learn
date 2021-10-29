@@ -1,0 +1,2 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x71a287a198e3c35c1129d1dd58cdd88abaac1a0b13bd420776cd0c6d884c9b68"],"id":1}' https://rpc-0.luniverse.io:18545?lChainId=8555924898017198221
+

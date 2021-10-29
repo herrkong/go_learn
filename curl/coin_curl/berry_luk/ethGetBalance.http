@@ -1,0 +1,1 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x69b4a70f35565cdf4830ebbcc8f240b1d9220c96", "latest"],"id":1}' https://rpc-0.luniverse.io:18545?lChainId=8555924898017198221

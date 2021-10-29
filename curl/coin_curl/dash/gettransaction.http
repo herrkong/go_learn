@@ -1,0 +1,1 @@
+curl --user admin:admin --data-binary '{"jsonrpc":"2.0","id":"curl","method":"getrawtransaction","params":["78fb086d6cd7540ef00e654e64694192e7dea1b7b4bad0c67b78c91a7e0c845b",true]}' https://testdashrpc.digifinex.org/ | jq

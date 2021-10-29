@@ -1,0 +1,46 @@
+{
+    "code": 1,
+    "msg": "成功",
+    "data": {
+        "type": "tx",
+        "network": "TRX",
+        "block_no": 32517009,
+        "height": 32517009,
+        "blockHash": "0000000001f02b910df3ae550ca9520dda97bf78d1cc3d3e6cb0bec9de7120dc",
+        "index": 61,
+        "time": 1628028540,
+        "txid": "e90d565a2d47e9f2d1feb5ae8c1a588d9a2e6105d6847297e3e03f483979cb3f",
+        "fee": "2.39334",
+        "tType": "Trigger Smart",
+        "confirmations": 4522,
+        "from": "TZJoFL4hmTDwqaRpj1khbk3yQVMn76oFQc",
+        "to": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+        "value": "0",
+        "gasFee": 2048340,
+        "gasUsed": 14631,
+        "gasLimit": 8000000,
+        "expiration": 1628028588,
+        "toIsContract": 1,
+        "netFee": 345000,
+        "tokenTransfer": [
+            {
+                "index": 61,
+                "token": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                "tokenAddr": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                "tokenSymbol": "USDT",
+                "tokenDecimals": "6",
+                "tokenInfo": {
+                    "h": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                    "f": "Tether USD",
+                    "s": "USDT",
+                    "d": "6",
+                    "c": "TRC20"
+                },
+                "from": "TZJoFL4hmTDwqaRpj1khbk3yQVMn76oFQc",
+                "to": "TLACnd9PAtHgwcejSP5dQhTtCKsUntUYtK",
+                "value": "7426762024"
+            }
+        ],
+        "input": "a9059cbb0000000000000000000000006fc5a789eafcabec0b7e4d9e5a04d45834012e6900000000000000000000000000000000000000000000000000000001baab6528"
+    }
+}

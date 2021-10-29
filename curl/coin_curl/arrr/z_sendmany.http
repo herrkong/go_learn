@@ -1,0 +1,2 @@
+
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary '{"jsonrpc":"1.0","id":"curl","method":"z_sendmany","params":["zs1h3qv3pcqw6m7y50x7tkcuf8d95lun6cxzmc2geuqldqhm0y88hk8fyqzg2flu5rzyj9fcs5m5t7",[{"address":"zs1ahuk0y2ycccqg7upetcnuuk5h6c6mlqytfy6ghac28jvz0yzgcfxmpfq2qcjrnm5kuh62kvhh6s","amount":0.0015}]]}' https://testarrrrpc.digifinex.org/ | jq

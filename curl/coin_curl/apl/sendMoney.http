@@ -1,0 +1,49 @@
+
+
+# curl -X POST https://apollowallet.org/apl?requestType=sendMoney&recipient=APL-SEJB-X3SF-VRUG-7SC88&amountATM=100000000&publicKey=a43559916f01bac1f405594d0b972350a793ab0d0c764ed5892d0a1447665c16&feeATM=100000000&deadline=60
+
+
+
+
+# curl -X POST https://testaplrpc.digifinex.org/apl?requestType=sendMoney&recipient=APL-SEJB-X3SF-VRUG-7SC88&amountATM=100000000&publicKey=e3d6266a30faec9df39731ddf30d58060a2b0a9ceb1b8351952919148e8a3462&feeATM=100000000&deadline=60
+
+
+
+#curl -X POST https://wallet.test.apollowallet.org/apl?requestType=sendMoney&recipient=APL-W22B-3NRF-24TK-AA7EW&amountATM=100000000&publicKey=&feeATM=100000000&deadline=60
+
+
+# publicKey is the public key of the sender’s account.
+
+# 
+
+
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&secretPhrase=announce+hydras+nines+watching+seat+greater+lusts+beggarly+cadges+typhoon+party+singling+pasting+nitpick&recipient="APL-LM55-FZC5-36DD-FFZEW"&amountATM=10000000&publicKey=2b10eb38ac48c51aca77648b6dd82c30f9b2495468d2ca2bf53ee47f0a66d279&feeATM=100000000&deadline=600'
+
+
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&secretPhrase="announce\+hydras\+nines\+watching\+seat\+greater\+lusts\+beggarly\+cadges\+typhoon\+party\+singling\+pasting\+nitpick"&recipient="APL-LM55-FZC5-36DD-FFZEW"&amountATM=10000000&feeATM=100000000&deadline=600'
+
+
+### use generateAccount get a vault account  
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&sender=APL-W22B-3NRF-24TK-AA7EW&passphrase=announce+hydras+nines+watching+seat+greater+lusts+beggarly+cadges+typhoon+party+singling+pasting+nitpick&recipient=APL-LM55-FZC5-36DD-FFZEW&amountATM=10000000&feeATM=100000000&deadline=600'
+
+
+####  publicKey is the public key of the sender’s account (optional, enhances security of new account) (optional) (Used for offline signing transaction with no broadcast)
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&sender=APL-W22B-3NRF-24TK-AA7EW&passphrase=announce+hydras+nines+watching+seat+greater+lusts+beggarly+cadges+typhoon+party+singling+pasting+nitpick&recipient=APL-SN5U-BWGY-QWEC-HDF8Q&amountATM=1000000000&feeATM=100000000&deadline=600'
+
+
+
+#### standard acccount transfer 
+
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&secretPhrase=armories+formerly+forming+moose+lipstick+liqueur+patents+marcher+marchers+hormonal+warmer+warmers&recipient=APL-W22B-3NRF-24TK-AA7EW&amountATM=10000000&feeATM=100000000&deadline=600'
+
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&secretPhrase=armories+formerly+forming+moose+lipstick+liqueur+patents+marcher+marchers+hormonal+warmer+warmers&recipient=APL-R86T-Q6VH-R4VZ-45SGW&amountATM=10000000&feeATM=100000000&deadline=600'
+
+
+#curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=sendMoney&secretPhrase=0bc92158a6bfdf7f5f9f4f2c8f92f64a&recipient=APL-SN5U-BWGY-QWEC-HDF8Q&amountATM=10000000&feeATM=100000000&deadline=600'
+
+#curl -X POST "https://wallet.test.apollowallet.org/apl?requestType=sendMoney&sender=APL-W22B-3NRF-24TK-AA7EW&passphrase=announce+hydras+nines+watching+seat+greater+lusts+beggarly+cadges+typhoon+party+singling+pasting+nitpick&publicKey=24a88cc13c9a3a9f06c636b58c5b607fcb7cff14d449325691fa448933e6b870&amountATM=20000000&feeATM=100000000&deadline=60&recipient=APL-JVXK-XLZY-T3UP-G9U7K&broadcast=false"
+
+# 24a88cc13c9a3a9f06c636b58c5b607fcb7cff14d449325691fa448933e6b870
+
+
+curl -X POST "https://wallet.test.apollowallet.org/apl?requestType=sendMoney&publicKey=24a88cc13c9a3a9f06c636b58c5b607fcb7cff14d449325691fa448933e6b870&amountATM=20000000&feeATM=100000000&deadline=60&recipient=APL-RQTU-56W2-AAMY-7MTLB&broadcast=false"

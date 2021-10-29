@@ -1,0 +1,4 @@
+
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc": "2.0","id":1,"method":"getblockcount","params":[]}'  https://testddrrpc.digifinex.org/
+
+curl --user Xd3W5tRHsiW5GYZ:dCsgw8VB7sN5hhi  --data-binary '{"jsonrpc":"2.0","id":"curl","method":"getblockcount","params":[]}' https://testddrrpc.digifinex.org/ | jq

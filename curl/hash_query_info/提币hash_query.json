@@ -1,0 +1,47 @@
+{
+    "result": {
+      "amount": -374607,
+      "fee": -5.676,
+      "confirmations": 410,
+      "blockhash": "683f38f5c6ab82d91ea76556a8fe27c797e1f03979f03b4711457824b149ff38",
+      "blockindex": 4,
+      "blocktime": 1631463280,
+      "txid": "c9bc6446bc483dc17d1db7e66016e097b7bde57320e06511192827829b5fffd2",
+      "walletconflicts": [],
+      "time": 1631463150,
+      "timereceived": 1631463150,
+      "bip125-replaceable": "no",
+      "details": [
+        {
+          "involvesWatchonly": true,
+          "address": "MFsa8qi4QNEojD8eASjNNxkP5bwon3s9Ho",
+          "category": "send",
+          "amount": -374607,
+          "vout": 0,
+          "fee": -5.676,
+          "abandoned": false
+        },
+        {
+          "involvesWatchonly": true,
+          "address": "M887uLby4dqnS1pMF2tyWjLh3x21x1TsEN",
+          "category": "send",
+          "amount": -645392125.8678671,
+          "label": "",
+          "vout": 1,
+          "fee": -5.676,
+          "abandoned": false
+        },
+        {
+          "involvesWatchonly": true,
+          "address": "M887uLby4dqnS1pMF2tyWjLh3x21x1TsEN",
+          "category": "receive",
+          "amount": 645392125.8678671,
+          "label": "",
+          "vout": 1
+        }
+      ],
+      "hex": "0100000001e5dd84047d74f675887cc51d9eaa10f8e0a12773d3a9463141ec11c75e956e6c010000008a47304402205048b34b0cd9ea75917e5b8f23237c0f37aedf087fbd0bb072f13f94b90a0bd002201070322029baf69adadcdfe717dc5c05c23d91805d7dac7aa43e830078768c8b014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffff02006fb7ff112200001976a914577420ca87f20ae50fb2d0f37cee24e5790a553b88ac969f5168124ae5001976a914027376956080e3fc125db1571483ec79fffa6e8588ac00000000"
+    },
+    "error": null,
+    "id": "curltest"
+  }

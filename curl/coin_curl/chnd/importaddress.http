@@ -1,0 +1,1 @@
+curl --user GHNqSfLS34i2uzB7:jzafoAvSuF65Npdn --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"importaddress","params":["cC7CX2RHN6Ld9zeu2x7shEZgzTAgn12fWC"]}' https://testchndrpc.digifinex.org/ | jq

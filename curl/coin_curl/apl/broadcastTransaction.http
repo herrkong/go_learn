@@ -1,0 +1,6 @@
+curl -X POST https://apollowallet.org/apl?requestType=broadcastTransaction&transactionBytes=001046aac6013c0057fb6f3a958e320bb49c4e81b4c2cf28b9f25d086c143...
+
+
+# transactionBytes is the bytecode of a signed transaction (optional)
+
+

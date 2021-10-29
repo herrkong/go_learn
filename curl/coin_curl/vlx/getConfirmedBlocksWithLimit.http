@@ -1,0 +1,6 @@
+
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getConfirmedBlocksWithLimit","params":[16560985,10]}'  https://rpc.mainnet.velas.com/
+
+
+16560985
+16554490

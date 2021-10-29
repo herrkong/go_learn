@@ -1,0 +1,3 @@
+curl --user iouyegoW409Iuyt:aT3ddxbtLrboiTu --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listunspent", "params": [0, 999999] }'  https://mrxrpc.digifinex.org/wallet/ | jq
+
+3399172400000000

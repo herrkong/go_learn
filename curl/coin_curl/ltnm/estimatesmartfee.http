@@ -1,0 +1,1 @@
+curl --user iqlas@cumuluslogic.net:test --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"estimatesmartfee","params":[1000]}' http://18.169.65.221:38552/wallet/testdarwin  | jq

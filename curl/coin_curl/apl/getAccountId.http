@@ -1,0 +1,15 @@
+# curl -X POST https://apollowallet.org/apl?requestType=getAccountId&publicKey=9da22a3913d9aac91a327d68db0c338154d74735133b420c197522b3d4fe964c
+
+#curl -X POST https://wallet.test.apollowallet.org/apl?requestType=getAccountId&publicKey=79e0f01b68b97993b7afe90546fedd16c4cfe9f18a65969e7e143c8053cdc769
+
+
+#curl -X POST https://wallet.test.apollowallet.org/apl?requestType=getAccountId&secretPhrase=items+sails+saintly+captions+kiosks+kippered+manumit+stitches+stitches+tickle+baste+basted
+
+
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getAccountId&publicKey=530a3f660d254b6bcf5286adc6621b00b7f1ba9a860bf4cd205a3be6ffbf8e07'
+
+
+#APL-AC72-2AAL-EPFR-CB38F
+#9da22a3913d9aac91a327d68db0c338154d74735133b420c197522b3d4fe964c
+
+curl -X POST 'https://testaplrpc.digifinex.org/apl?requestType=getAccountId&publicKey=9da22a3913d9aac91a327d68db0c338154d74735133b420c197522b3d4fe964c'

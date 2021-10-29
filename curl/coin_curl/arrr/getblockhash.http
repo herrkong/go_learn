@@ -1,0 +1,1 @@
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary '{"jsonrpc":"1.0","id":"curl","method":"getblockhash","params":[1397104]}' https://testarrrrpc.digifinex.org/ | jq

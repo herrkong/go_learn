@@ -1,0 +1,9 @@
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=exportKey&passphrase=announce+hydras+nines+watching+seat+greater+lusts+beggarly+cadges+typhoon+party+singling+pasting+nitpick&account=APL-W22B-3NRF-24TK-AA7EW'
+
+#### vault wallet
+#curl -X POST 'https://testaplrpc.digifinex.org/apl?requestType=exportKey&passphrase=pickiest+largesse+pretties+rebuffed+lewder+puddles+hearth+hidden+roils+teariest+textiles+gains+scenic&account=APL-DNUV-K6EQ-BSRT-6PYF9'
+
+
+#### standard wallet
+#curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=exportKey&passphrase=armories+formerly+forming+moose+lipstick+liqueur+patents+marcher+marchers+hormonal+warmer+warmers&account=APL-SN5U-BWGY-QWEC-HDF8Q'
+ 

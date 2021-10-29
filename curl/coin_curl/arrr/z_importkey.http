@@ -1,0 +1,2 @@
+
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary '{"jsonrpc":"1.0","id":"curl","method":"z_importkey","params":["secret-extended-key-secret-extended-key-main1qvrk2f0fqyqqpq8f5unncjafuc65cc8wnvxar4s0p239x80v6w2kxcw0062as70jx0nwutx4gqxttwcgdjnmfe8txdeulk6kje4zyzeyuwgk22nlxtcs93wmcvd5scfeylm9zlf5wlczwlmy9p926jpc5pfwrlu3ug3ygzc803dc902sz98rmn7kca4vwwucwu8a30gdrjhkg2s6ewcckrqkd5a25qlkyzxtdt3590qr5q8j47wphf5yzp2uugchxhplhsjdeyj5s7ql5k7a3"]}' https://testarrrrpc.digifinex.org/ | jq

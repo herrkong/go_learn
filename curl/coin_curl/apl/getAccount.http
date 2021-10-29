@@ -1,0 +1,2 @@
+
+curl -X POST 'https://wallet.test.apollowallet.org/apl?requestType=getAccount&account=APL-SN5U-BWGY-QWEC-HDF8Q'

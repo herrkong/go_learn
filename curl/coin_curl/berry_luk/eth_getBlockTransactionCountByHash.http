@@ -1,0 +1,2 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":["0x1d4c13efbfcde134d2f448ab40c4c612b41634ac9d83dce7dae572c09aed36fd"],"id":1}' https://rpc-0.luniverse.io:18545?lChainId=8555924898017198221
+

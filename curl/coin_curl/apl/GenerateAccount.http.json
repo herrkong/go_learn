@@ -1,0 +1,22 @@
+{
+    "requestProcessingTime": 245,
+    "account": "17816887228052859909",
+    "accountRS": "APL-KV27-K6VN-Z8P3-HELJG",
+    "publicKey": "b73191666165148ed8ec0885c3430508d6520e829c93199ade4d24bd36a66b6c",
+    "passphrase": "hurtling perjury lions hotness lazied dogmas rematch damndest jarred mattered",
+    "apl": {
+      "currency": "apl",
+      "wallets": {
+        "account": "17816887228052859909",
+        "accountRS": "APL-KV27-K6VN-Z8P3-HELJG",
+        "publicKey": "b73191666165148ed8ec0885c3430508d6520e829c93199ade4d24bd36a66b6c",
+        "passphrase": "hurtling perjury lions hotness lazied dogmas rematch damndest jarred mattered"
+      }
+    },
+    "eth": [
+      {
+        "address": "0xcedd3a144b104c4e5c54343b239c538c8d658f1b",
+        "publicKey": "4aae9005af7feebd6120e6c6c4e785f702d98dd92bad98ae806f82d01893e02a0ec905374a767acb81dd7e19723f8ca9d4365cf4072266a155681e8c5f7ee06c"
+      }
+    ]
+  }

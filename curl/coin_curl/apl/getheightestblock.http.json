@@ -1,0 +1,23 @@
+{
+    "requestProcessingTime": 1,
+    "block": "742234563965439900",
+    "height": 8838604,
+    "generator": "1678628922567798041",
+    "generatorRS": "APL-MDAT-5KZP-YEKZ-3JXLG",
+    "generatorPublicKey": "ff741e58572c3b01282d302e8aae4443698b08f83a3bad3b06babc467dee5213",
+    "timestamp": 115848868,
+    "timeout": 7,
+    "numberOfTransactions": 0,
+    "totalFeeATM": "0",
+    "payloadLength": 0,
+    "version": 6,
+    "baseTarget": "1117514184",
+    "cumulativeDifficulty": "246249167887778706",
+    "previousBlock": "16067930162567748125",
+    "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "generationSignature": "5f7e3a9bee363e0186753f8f1615b8d6cdc2bb422510355b7479efab470af21a",
+    "previousBlockHash": "1d9aa2ef59c1fcde33c2508c5eadec78d32cf74e14c85b44e4aa6cb3707ac358",
+    "blockSignature": "ba877e241ef2e71c411757119d357273a5490ea7c4d41048158e9f5aef22690f7d8d1bc66d59d8db0b7836cf195754480b433f49d1710be47465d63657ac9978",
+    "totalAmountATM": "0",
+    "transactions": []
+  }

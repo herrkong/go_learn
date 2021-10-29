@@ -1,0 +1,28 @@
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J  --data-binary 
+'
+{
+    "jsonrpc": "1.0",
+    "id": "curl",
+    "method": "z_createbuildinstructions",
+    "params": [
+        [
+            {
+                "txid": "c2a7b2681ddade742c85e6f9201349630c4c33d0862157c3b00cc4358a59c156",
+                "index": 1
+            }
+        ],
+        
+        [
+            {
+                "address":"zs147yu3v03nj0lkzxfd4jxy5dgmdu40fl6tkdmn2qylljcetm0w5jmn3l53y9cu3mnhj27v0vx63y",
+                "amount": 0.001
+            }
+        ]
+      
+    ]
+}
+' 
+https://testarrrrpc.digifinex.org/ | jq
+
+
+

@@ -1,0 +1,6 @@
+
+
+
+
+
+curl -X POST  'https://wallet.test.apollowallet.org/apl?requestType=getECBlock'

@@ -1,0 +1,10 @@
+
+curl -X POST https://apollowallet.org/apl?requestType=sendTransaction&transactionBytes=
+
+
+
+# Request:
+# requestType is sendTransaction
+# transactionBytes is the bytecode of a signed transaction (optional)
+# transactionJSON is the transaction object (optional if transactionBytes provided)
+

@@ -1,0 +1,7 @@
+curl --user pKST7GJu5eJjt8:fMY3es8Bs8hyWP --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listunspent", "params": [1, 9999999] }'  https://ltnmrpc.digifinex.org/ | jq
+
+
+#curl --user iqlas@cumuluslogic.net:test --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listunspent", "params": [1, 9999999] }'  http://18.169.65.221:38552/wallet/ | jq
+
+
+#curl --user iqlas@cumuluslogic.net:P@ssword123 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listunspent", "params": [1, 9999999] }'  http://3.35.159.185:38552/wallet/ | jq

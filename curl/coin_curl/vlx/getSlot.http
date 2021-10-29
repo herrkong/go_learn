@@ -1,0 +1,5 @@
+// Request
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0", "id":1, "method":"getSlot", "params":[]}'  https://api.testnet.velas.com/
+
+// Result
+# {"jsonrpc":"2.0","result":{"context":{"slot":1},"value":0},"id":1}

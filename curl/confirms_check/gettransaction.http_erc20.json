@@ -1,0 +1,49 @@
+{
+    "code": 1,
+    "msg": "成功",
+    "data": {
+        "appendixData": {
+            "ethPrice": {
+                "ethUsdPriceNow": "2543.31443",
+                "ethUsdPricePast": "1762.89927"
+            }
+        },
+        "type": "tx",
+        "network": "ETH",
+        "block_no": 12712067,
+        "height": 12712067,
+        "blockHash": "0xece8ecf2b33c415fb561ecbe8fad7e19456217bb983a1f0d4b596b5fe3f905bf",
+        "index": 33,
+        "time": 1624743440,
+        "txid": "0x819c3c5eae99af7073875f200786e910d92427e0919c4c4ee2403426f726175c",
+        "fee": "0.001317264",
+        "confirmations": 231052,
+        "from": "0xb8c01ef5ada141270285c12013ff7ebdc1f97e81",
+        "to": "0x26a79bd709a7ef5e5f747b8d8f83326ea044d8cc",
+        "nonce": 14,
+        "toIsContract": 1,
+        "gasPrice": 12000000000,
+        "gasLimit": 164658,
+        "value": "0",
+        "inputData": "0xa9059cbb0000000000000000000000006600f6e2b4e3b2a1d88fbf37021b1b3b8dbf56de000000000000000000000000000000000000000000000000001cf7751cd14142",
+        "gasUsed": 109772,
+        "tokenTransfer": [
+            {
+                "index": 33,
+                "token": "0x26a79bd709a7ef5e5f747b8d8f83326ea044d8cc",
+                "tokenAddr": "0x26a79bd709a7ef5e5f747b8d8f83326ea044d8cc",
+                "tokenSymbol": "BSOCIAL",
+                "tokenDecimals": "8",
+                "tokenInfo": {
+                    "h": "0x26a79bd709a7ef5e5f747b8d8f83326ea044d8cc",
+                    "f": "BankSocial",
+                    "s": "BSOCIAL",
+                    "d": "8"
+                },
+                "from": "0xb8c01ef5ada141270285c12013ff7ebdc1f97e81",
+                "to": "0x6600f6e2b4e3b2a1d88fbf37021b1b3b8dbf56de",
+                "value": "7582644994585859"
+            }
+        ]
+    }
+}

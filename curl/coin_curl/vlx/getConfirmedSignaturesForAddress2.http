@@ -1,0 +1,5 @@
+// Request
+// 地址相关的交易
+
+curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0", "id":1, "method":"getConfirmedSignaturesForAddress2", "params":["CgbToPqdkqb6W4ey6gb6w4h1MyamRmHCBMejk6Riqpsk"]}'  https://api.testnet.velas.com/
+

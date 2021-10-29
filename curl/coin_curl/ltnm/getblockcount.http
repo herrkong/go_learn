@@ -1,0 +1,4 @@
+
+
+
+curl --user iqlas@cumuluslogic.net:test  --data-binary '{"jsonrpc":"2.0","id":"curl","method":"getblockcount","params":[]}' http://18.169.65.221:38552/ | jq

@@ -1,0 +1,1 @@
+curl --user iouyegoW409Iuyt:aT3ddxbtLrboiTu --data-binary '{"jsonrpc":"2.0","id":"curltest","method":"getblock","params":["d7954b28ce221509d16c2cf009b5be659907cd3306572d2fb0f3334049f1029f",2]}' https://mrxrpc.digifinex.org/ | jq

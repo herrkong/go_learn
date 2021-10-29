@@ -1,0 +1,41 @@
+{
+    "code": 1,
+    "msg": "成功",
+    "data": {
+        "type": "tx",
+        "network": "DASH",
+        "block_no": 1514312,
+        "height": 1514312,
+        "blockHash": "000000000000000dfa0d6d4ad7dc35e1ca805484962361ebbe6128968e6ad3fe",
+        "index": 7,
+        "time": 1627862691,
+        "txid": "eb807cd40eaf02149ef97c1401a2c3145d68ad52de01acac27b7625e5812baee",
+        "fee": "0.00031491",
+        "confirmations": 181,
+        "inputs": [
+            {
+                "input_no": 0,
+                "address": "XtdMPY8DxUntLcgqRnpHDZ3bs1fLPwiX88",
+                "value": "65.16117176",
+                "received_from": {
+                    "output_no": 0,
+                    "txid": "ba0c61f6f0f090af53f533d1d876e46fb810a9e5afb094630305d8c99d2aae56"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "output_no": 0,
+                "address": "7hhafKVSQQVbEN2GgG7HosYydBhD6MP5Jd",
+                "value": "0.6739"
+            },
+            {
+                "output_no": 1,
+                "address": "XtdMPY8DxUntLcgqRnpHDZ3bs1fLPwiX88",
+                "value": "64.48695685"
+            }
+        ],
+        "inputCnt": 1,
+        "outputCnt": 2
+    }
+}

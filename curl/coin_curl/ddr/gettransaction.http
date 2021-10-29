@@ -1,0 +1,2 @@
+curl --user Xd3W5tRHsiW5GYZ:dCsgw8VB7sN5hhi --data-binary '{"jsonrpc": "2.0", "id":"curltest", "method": "gettransaction", "params": ["b3cda776782afaab33f4a6f0e47e43ddb7da0ffa0ee2900a1efee976361589e4",true] }'  https://testddrrpc.digifinex.org/ | jq
+

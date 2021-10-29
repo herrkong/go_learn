@@ -1,0 +1,31 @@
+{
+    "signatureHash": "3f4830bf28f105d5075f5e084c36e4582a156e713abfe0bc6ee51cbf8b20f2d2",
+    "transactionJSON": {
+     "senderPublicKey": "10f09c34f225d425306e5be55a4946908156072afbead4d574a512d7e086ef5c",
+     "signature": "24513e93029688100c5a04183ffddc49812fd7a137a15fb3a2545aa9a2bcb5004a3...",
+     "feeATM": "100000000",
+     "type": 0,
+     "fullHash": "c34af8f1509e3be79c4562e24125ff2a8f026871fdd1a0366ad315bf8fab76b9",
+     "version": 1,
+     "phased": false,
+     "ecBlockId": "15869644242181198665",
+     "signatureHash": "3f4830bf28f105d5075f5e084c36e4582a156e713abfe0bc6ee51cbf8b20f2d2",
+     "attachment": {
+      "version.OrdinaryPayment": 0
+     },
+     "senderRS": "APL-4VDY-LNVT-LMAY-FMCKA",
+     "subtype": 0,
+     "amountATM": "1000000000",
+     "sender": "15295723609781267838",
+     "recipientRS": "APL-BMUV-8QQR-47VK-CR7F3",
+     "recipient": "11580081983047651163",
+     "ecBlockHeight": 123777,
+     "deadline": 1440,
+     "transaction": "16662085316881435331",
+     "timestamp": 54328076,
+     "height": 149320
+    },
+    "verify": true,
+    "requestProcessingTime": 5,
+    "transactionBytes": "00100cfb3c03a00510f09c34f225d425306e5be55a4946908156072afbead4...",
+}

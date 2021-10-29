@@ -1,0 +1,2 @@
+
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary '{"jsonrpc": "1.0", "id":"curl", "method": "zs_gettransaction", "params": ["d7f056754edd55b1f2ddfcfb37dbe020dbc209ccc3cb4d2bb25025513b390562"] }' https://arrrpushrpc.digifinex.org/ 

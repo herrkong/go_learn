@@ -1,0 +1,5 @@
+
+
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary '{"jsonrpc":"1.0","id":"curl","method":"z_exportkey","params":["zs1ll3yftvd88uvnjkwzt2funcdtxjclc8z69w3wvqvrhtpkqfc3c8c99se0dl5s3me700vwm2l37w"]}' https://testarrrrpc.digifinex.org | jq
+
+

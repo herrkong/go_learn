@@ -1,0 +1,56 @@
+{
+    "result": {
+      "amount": 0,
+      "fee": -21.626,
+      "confirmations": 57874,
+      "blockhash": "a11e80552504f222434c67d998194d688b60e1b5c2fc1c6293840c3308833707",
+      "blockindex": 3,
+      "blocktime": 1626232464,
+      "txid": "9448717b83fc1655b2d65a46a417676fdf33e42bd8c29f5381b1dd66f5e25ba0",
+      "walletconflicts": [],
+      "time": 1626232246,
+      "timereceived": 1626232246,
+      "bip125-replaceable": "no",
+      "details": [
+        {
+          "involvesWatchonly": true,
+          "address": "MBJN7XA8PcAVAkLV8DGG6SCUZuUpxbze8c",
+          "category": "send",
+          "amount": -5000,
+          "label": "",
+          "vout": 0,
+          "fee": -21.626,
+          "abandoned": false
+        },
+        {
+          "involvesWatchonly": true,
+          "address": "M887uLby4dqnS1pMF2tyWjLh3x21x1TsEN",
+          "category": "send",
+          "amount": -586628981.192,
+          "label": "",
+          "vout": 1,
+          "fee": -21.626,
+          "abandoned": false
+        },
+        {
+          "involvesWatchonly": true,
+          "address": "MBJN7XA8PcAVAkLV8DGG6SCUZuUpxbze8c",
+          "category": "receive",
+          "amount": 5000,
+          "label": "",
+          "vout": 0
+        },
+        {
+          "involvesWatchonly": true,
+          "address": "M887uLby4dqnS1pMF2tyWjLh3x21x1TsEN",
+          "category": "receive",
+          "amount": 586628981.192,
+          "label": "",
+          "vout": 1
+        }
+      ],
+      "hex": "01000000054036286c14628c40077e73f9b63a463c4ab2d39753a3e40b937ed5516243a6a1000000008a47304402206cc082771ab28a6cdfb808d4c2bd145f369938c3648fe7503cdca9f86ff0dc5502203bcdd61f039203e6aa8cc150c2c7b91fa1b5472eb59acc719ac3c6ce087ce936014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffff55e70c49e56716d26146f166afbcdea604347b311e2c2b5ee4becdb4ce70a314000000008a473044022008074a357e8b6df498307b606af2fdd148c085941356b5bdc133417355fc48bc02204ef2b2aac04b7b495d63422f65ec19f996dadf74f3ac804e59ba17df95c48a0b014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffff9d651232c4b7d107c901d3172748f2874f0f1826dcdba944a109966a6482aab6010000008b483045022100d7dd86409e120227dad8f66a0f60caac9104e87bf4460c03c42963df04ba6e010220735d5da8321e6d1306e4f985d6c165acf5bdbd963aff12ef9adff5a3eb448762014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffffc108c503994a8b24d64d77d5ce98be19bae1ca954277d7b48f53ded4b018f2a0000000008b483045022100e2b9350614be9b028cbcce483b3ef3af38e1cc5fb3d0c619cc1d0501f20a299b022060ebcd56d8c90fd00431af4634b92dbd8e7c022807a259d1d339a9cd3f7c2cc7014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffffeaf2c9847c97154b58eb0691ce84de693d509e2f631f65bb97a1a227f5b5e302000000008b483045022100c245e83f1344634a6266d8319b142d4fe33fec2e7e844a8ed065f3ffef8ec07f0220503f3f2bcb01eea1fedc4699bc4173202e1c8d4abc1c978d36fcb2e7e1c166e8014104fb49547b45af1c71f732d1b6cd6a336f841c9f6d228e1f02027c57e0790994b502b6de3681025c1d6cd1eb3337141f7b7045703ac4a99155d66ec84aee497e9bffffffff020088526a740000001976a914254bdcb43acef03dbe90dd4a6602e9913a4e326288ac00cde3539869d0001976a914027376956080e3fc125db1571483ec79fffa6e8588ac00000000"
+    },
+    "error": null,
+    "id": "curltest"
+  }

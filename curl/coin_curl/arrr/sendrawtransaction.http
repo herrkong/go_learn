@@ -1,0 +1,13 @@
+curl --user ca72UzFyRHkpdd7R:Gq8rjgT2XdtyTg4J --data-binary 
+'
+{
+    "jsonrpc": "1.0",
+    "id": "curl",
+    "method": "sendrawtransaction",
+    "params": [
+        "0100000001e13b1835990d82fec502ba14e38dc83fc9f7160d342b6feef5e5da753b6fd18b000000006b483045022100f169f2925ef21a8aa00afea180da0a35bac48432926f6cfd64f049cd6d15856f022050bad394a14013048c61fdd05c3052f623b6a2d1af36e82ebb160a9b54af3eef01210356686b7c91a79fbfbee8f2d676ee496aa8b630f548aa041d275a7c2173fd7d5fffffffff0240420f00000000001976a914862d49d6479721dce883efcad6f37e20b4e362b888ac808d5b00000000001976a9149bad09846123ab4600e955fcd0817def7baeba9d88ac00000000"
+    ]
+}
+
+' 
+https://testarrrrpc.digifinex.org/ | jq

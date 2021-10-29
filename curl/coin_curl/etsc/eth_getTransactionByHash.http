@@ -1,0 +1,2 @@
+curl -X POST --header "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x406e35697eac90943795533e15834f9d04565e2de16bc8cc7592156b4a6da115"],"id":1}' https://testetscrpc.digifinex.org/
+

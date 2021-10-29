@@ -1,0 +1,17 @@
+
+// 操作和mrx ddr chnd 都是一样的
+// ltnm 币种id 1064
+
+
+//生成地址
+./tss_tools_linux public_key_to_address --in=pubKeys_1000.txt --address_type=ltnm
+
+// 导入地址到节点
+importaddress
+
+// 导入地址时先不要rescan
+curl --user main:main --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"importaddress","params":["",false]}' http://dns.seed2.latinum.staking.zeeve.net:38555/wallet/tsswallet  | jq
+
+导入最后一个地址时 需要rescan
+curl --user main:main --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"importaddress","params":[""]}' http://dns.seed2.latinum.staking.zeeve.net:38555/wallet/tsswallet  | jq
+
