@@ -3,6 +3,10 @@
 
 sync.map  LoadOrStore()
 
+####
+其中map的key可以是任意内置的数据类型(如int)，或者其它可以通过"=="进行等值比较的数据类型，如interface和指针可以。 
+slice、数组、map、struct类型都不能作为key
+
 
 #### 实现协程安全的map
 rwmutex

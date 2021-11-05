@@ -31,39 +31,39 @@ import (
 // }
 
 // 这里是传的切片 
-func Change (a []int){
-	a[0] = 1
+// func Change (a []int){
+// 	a[0] = 1
 
-}
+// }
 
-func main(){
-	// cap = 3
-	A := make([]int,3,3)
+// func main(){
+// 	// cap = 3
+// 	A := make([]int,3,3)
 
-	fmt.Println(A)
+// 	fmt.Println(A)
 
-	for i:= 0 ; i<3 ;i++{
-		A[i] = i
-	}
+// 	for i:= 0 ; i<3 ;i++{
+// 		A[i] = i
+// 	}
 
-	// 0 1 
-	B := A[0:2]
+// 	// 0 1 
+// 	B := A[0:2]
 
-	fmt.Println(B)
+// 	fmt.Println(B)
 
-	// 超过容量了 移动到新地址
+// 	// 超过容量了 移动到新地址
 
-	A = append(A, []int{3,4,5}...)
+// 	A = append(A, []int{3,4,5}...)
 
-	fmt.Println(A)
+// 	fmt.Println(A)
 
-	// 但是并没有改变其值
-	Change(B)
+// 	// 但是并没有改变其值
+// 	Change(B)
 
-	fmt.Println(A)
+// 	fmt.Println(A)
 
 
-}
+// }
 
 
 
@@ -171,18 +171,17 @@ func main(){
 // func main(){
 // 	c1 := make(chan int,1)
 
+// 	c1 <-1 
+
 // 	select{
 // 	case a := <- c1:
 // 		fmt.Println(a)
 // 	}
-
-// 	c1 <-1 
-
 // }
 
 
-// func main1() {
-// 	cache := make([]int,1)
+// func main() {
+// 	cache := make([]int,1) // 未初始化 0 
 // 	cache = append(cache,2)
 // 	fmt.Println(cache)
 // }
