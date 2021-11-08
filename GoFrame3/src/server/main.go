@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/herrkong/go_learn/Public/golang/public/data"
+	pb "github.com/herrkong/go_learn/Public/golang/public/data"
 	"log"
 	"net"
 
@@ -19,7 +19,7 @@ var(
 type ChatServer struct{}
 
 
-func (c * ChatServer) GetData(ctx context.Context,in * ChatFormat.Data) ( out *ChatFormat.Data,err error){
+func (c * ChatServer) GetData(ctx context.Context,in * pb.Data) ( out *pb.Data,err error){
 	log.Printf("Client Say:%s\n",in.message)
 	var response string 
 	fmt.Scanln(&response)
@@ -41,7 +41,7 @@ func main() {
 	grpcServer := grpc.NewServer()
 
 	// 向grpc服务器注册 ChatServer
-	ChatFormat.RegisterChatServerServer(grpcServer,&ChatServer{})
+	pb.RegisterChatServerServer(grpcServer,&ChatServer{})
 
 	grpcServer.Serve(lis)
 
