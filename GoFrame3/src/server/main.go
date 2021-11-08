@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/herrkong/go_learn/GoFrame3"
+	"github.com/herrkong/go_learn/GoFrame3/src/data"
 	"log"
 	"net"
 
