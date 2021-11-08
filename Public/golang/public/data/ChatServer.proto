@@ -1,6 +1,6 @@
 syntax= "proto3";
 
-option go_package = "github.com/herrkong/go_learn/GoFrame3/src/data";
+option go_package = "github.com/herrkong/go_learn/Public/golang/public/data";
 
 package ChatServer;
 
