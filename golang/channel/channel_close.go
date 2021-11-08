@@ -5,7 +5,7 @@ import (
 	//"log"
 )
 
-func main() {
+func main1() {
 	defer func(){
 		if errs:=recover();errs!=nil{
 			fmt.Println(errs)
