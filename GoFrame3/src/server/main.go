@@ -1,10 +1,13 @@
 package main
 
 import (
-	 "go_learn/GoFrame3/src/data"
 	"context"
+	"fmt"
+	ChatFormat "go_learn/GoFrame3/src/data"
 	"log"
 	"net"
+
+	"google.golang.org/grpc"
 )
 
 var(
@@ -17,12 +20,12 @@ type ChatServer struct{}
 
 
 func (c * ChatServer) GetData(ctx context.Context,in * ChatFormat.Data) ( out *ChatFormat.Data,err error){
-
-
+	log.Printf("Client Say:%s\n",in.message)
+	var response string 
+	fmt.Scanln(&response)
+	out.message = response
 	return out,nil
 }
-
-
 
 
 func main() {
@@ -34,10 +37,13 @@ func main() {
 		log.Println("ChatServer is listening at: " + host + ":" + port)
 	}
 
-	
+	// 新建一个grpc服务器
+	grpcServer := grpc.NewServer()
 
-	
+	// 向grpc服务器注册 ChatServer
+	ChatFormat.RegisterChatServerServer(grpcServer,&ChatServer{})
 
+	grpcServer.Serve(lis)
 
 
 }
