@@ -1,9 +1,10 @@
 package main
 
 import (
-	"log"
+	//"log"
+	//"fmt"
 )
 
-func main() {
-	log.Println("233")
+func main1() {
+	
 }
